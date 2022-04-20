@@ -26,14 +26,30 @@
     font-size:13px;
 }
 
-.b-button{
+.signup{
     background-color: blue;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 12px;
-    padding-left: 12px;
+    width:70px;
+    height:30px;
+    margin-top: 1px;
+    margin-right: 80px;
+    position:absolute;
+    top:0;
+    right:0;
     color: white;
     font-size: 14px; 
+}
+
+.signin{
+        background-color: blue;
+        width:70px;
+        height:30px;
+        margin-top: 1px;
+        margin-right: 2px;
+        position:absolute;
+        top:0;
+        right:0;
+        color: white;
+        font-size: 14px; 
 }
 
 .modal-header{
