@@ -37,6 +37,8 @@
     right:0;
     color: white;
     font-size: 14px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
 .signin{
@@ -50,6 +52,8 @@
         right:0;
         color: white;
         font-size: 14px; 
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      cursor: pointer;
 }
 
 .modal-header{

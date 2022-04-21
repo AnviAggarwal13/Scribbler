@@ -10,3 +10,63 @@ body{
     display: block;
     height: 100%;
 }
+
+#main-container-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.postButtons {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+  }
+
+.y-btn{
+    background-color: rgba(238, 227, 71, 0.925);
+    color: black;
+    text-align: center;
+    border-color: white;
+    border-width: 2px;
+    height:30px;
+    width:90px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.create-btn{
+    margin-top: 10px;
+  background-color: green;
+  font-size: 14px;
+  width: 100px;
+  color: white;
+  padding: 10px;
+  align-self: center;
+  font-family: Abel; 
+}
+
+.post-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: auto;
+  }
+
+
+
+textarea{
+    padding: 10px;
+    border: none;
+    background-color: rgb(245, 243, 243);
+    font-family: Abel;
+}
+
