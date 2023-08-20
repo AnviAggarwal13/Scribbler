@@ -28,18 +28,31 @@ main {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 .header {
+=======
+.header1 {
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
+<<<<<<< HEAD
   margin-left: 10px;
   margin-right: 10px;
+=======
+  margin-left: 50px;
+  margin-right: 50px;
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
 }
 
 button {
   border: none;
+<<<<<<< HEAD
   background-color: red;
+=======
+  background-color: rgb(212, 66, 66);
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
   width: 80px;
   color: white;
   padding: 8px;
@@ -57,19 +70,34 @@ button {
   width: 100%;
   min-height: 5em;
   overflow: auto;
+<<<<<<< HEAD
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .like {
   margin-left: 10px;
+=======
+ 
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.like {
+  margin-left: 50px;
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
   margin-right: 10px;
   margin-bottom: 15px;
 }
 
 .comment {
+<<<<<<< HEAD
   margin-left: 10px;
   margin-right: 10px;
+=======
+  margin-left: 50px;
+  margin-right: 50px;
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
   margin-bottom: 15px;
 }
 
@@ -80,13 +108,21 @@ textarea {
 }
 
 .all-comments {
+<<<<<<< HEAD
   margin-left: 10px;
+=======
+  margin-left: 50px;
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
   margin-right: 10px;
   margin-bottom: 15px;
 }
 
 .comment-area h3 {
   margin-bottom: 30px;
+<<<<<<< HEAD
+=======
+  margin-left: 40px;
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
 }
 
 #all-comments p {
@@ -94,6 +130,10 @@ textarea {
   margin-top: -20px;
   padding: 5px;
   width: 75%;
+<<<<<<< HEAD
+=======
+  margin-left: 40px;
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
 }
 
 .comment-area {

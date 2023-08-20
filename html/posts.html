@@ -4,11 +4,19 @@
 <head>
   <!--TODO: Include Font Awesome files here -->
   <script src="https://kit.fontawesome.com/af7a46e1ed.js" crossorigin="anonymous"></script>
+<<<<<<< HEAD
   
   <!-- TODO: IncludeGoogle Fonts files here-->
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet" />
+=======
+ 
+  <!-- TODO: IncludeGoogle Fonts files here-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 
@@ -25,6 +33,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
   <title>Scribbler | Posts</title>
 </head>
 
@@ -99,6 +108,86 @@
 <main>
     <input type="text" id="title" name="title" readonly></input>
     <div class="header">
+=======
+  <title>Scribbler | Post</title>
+</head>
+
+<body class="posts">
+  <!-- code for header  -->
+  <div class="header">
+    <div class="title-container">
+      <p class="title">ScriBBler</p>
+      <p class="sub-title">Explore, Imagine, Create</p>
+    </div>
+    <div class="login-buttons-container">
+      <button onclick="showSignUpModal()" class="up-btn" type="button">
+        Sign Up
+      </button>
+      <button onclick="showSignInModal()" class="in-btn" type="button">
+        Sign In
+      </button>
+    </div>
+  </div>
+  <!-- Insert code for Sign In modal here -->
+  <div class="modal" id="signin-modal">
+    <div class="modal-content">
+      <div class="modal-head">
+        <span>
+          <i onclick="hideSignInModal()" class="fa fa-times" aria-hidden="true"></i>
+          <h2 class="modal-title">Welcome Back!</h2>
+        </span>
+      </div>
+      <hr />
+      <form>
+        <label for="username" class="label-text">Username</label>
+        <input type="text" id="username" placeholder="Enter your username" required />
+        <label for="password" class="label-text">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required />
+        <button type="submit" onclick="signin(username, password)" class="signin-btn">
+          Sign In
+        </button>
+      </form>
+      <div class="container">
+        <p class="bottom-banner">
+          Not a member?<span onclick="hideSignInModal();showSignUpModal()" class="signup">Sign Up</span>
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Insert code for Sign Up modal here -->
+  <div>
+    <div class="modal" id="signup-modal">
+      <div class="modal-content">
+        <div class="modal-head">
+          <span>
+            <i onclick="hideSignUpModal()" class="fa fa-times" aria-hidden="true"></i>
+            <h2 class="modal-title">Get Started</h2>
+          </span>
+        </div>
+        <hr />
+        <form>
+          <label for="fullname" class="label-text">Name</label>
+          <input type="text" id="fullname" placeholder="Enter your name" required />
+          <label for="username" class="label-text">Username</label>
+          <input type="text" id="username" placeholder="Enter your username" required />
+          <label for="password" class="label-text">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+          <label for="confirmpassword" class="label-text">Confirm Password</label>
+          <input type="password" id="confirm_password" placeholder="Re-enter your password" required />
+          <button type="submit" onclick="signup(firstName,lastName, email, password, mobile)" class="signin-btn">
+            Sign Up
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- main section for displaying post title, user name and post -->
+  <main>
+    <input type="text" id="title" name="title" readonly></input>
+    <div class="header1">
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
       <p class="name" id="name2"></p>
       <button id="edit" onclick="edit()">Edit&nbsp;<i class="fas fa-edit"></i></button>
       <button id="save" onclick="save()" style="display: none;">Save&nbsp;<i class="fas fa-save"></i></button>
@@ -122,8 +211,19 @@
       <div id="all-comments"></div>
     </div>
   </main>
+<<<<<<< HEAD
     <script src="../scripts/common.js"></script>
     <script src="../scripts/index.js"></script>
     <script src="../scripts/postslist.js"></script>
     <script src="../scripts/posts.js"></script>
 </body>
+=======
+  <script src="../scripts/common.js"></script>
+  <!-- Place all Javascript for rest of the elements in this file -->
+  <script src="../scripts/index.js"></script>
+
+  <script src="../scripts/posts.js"></script>
+</body>
+
+</html>
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f

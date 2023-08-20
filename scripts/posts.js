@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 showPosts();
 let likes = 0;
 
 // load content from session storage
 function showPosts() {
+=======
+showPost();
+let likes = 0;
+
+// load content from session storage
+function showPost() {
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
   document
     .getElementById("title")
     .setAttribute("value", sessionStorage.getItem("title"));
@@ -50,7 +58,11 @@ function like() {
   likes++;
   document.querySelector(".like button").innerHTML =
     '<i class="fas fa-thumbs-up"></i> &nbsp; Liked';
+<<<<<<< HEAD
   if (likes >= 1) {
+=======
+  if (likes == 1) {
+>>>>>>> 7912b75527f72e63b6dd0c4f76f40603b95bc32f
     document.querySelector(".like p").innerHTML = likes + " person likes this!";
   } else {
     document.querySelector(".like p").innerHTML = likes + " people like this!";
